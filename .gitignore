@@ -1,0 +1,33 @@
+######################
+# Entando
+######################
+
+.entando
+
+######################
+# IntelliJ IDEA
+######################
+
+.idea
+*.iws
+*.iml
+*.ipr
+
+######################
+# Keycloak DB files
+######################
+
+/svc/keycloak/keycloak-db
+# Node
+######################
+microservices/entando-customized-strapi/build
+microservices/entando-customized-strapi/node_modules
+microservices/entando-customized-strapi/.cache
+######################
+# Visual Studio Code
+######################
+.vscode
+######################
+# Entando bundles
+######################
+####

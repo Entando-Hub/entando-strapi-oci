@@ -1,0 +1,17 @@
+{
+    "microservices": [
+        {
+            "name": "entando-customized-strapi",
+            "stack": "node",
+            "healthCheckPath": "/api/health",
+            "dbms": "postgresql",
+            "ingressPath": "/entando-strapi"
+        }
+    ],
+    "microfrontends": [],
+    "svc": [],
+    "name": "entando-strapi-bundle",
+    "version": "0.0.1",
+    "description": "Entando Strapi bundle description",
+    "type": "bundle"
+}
