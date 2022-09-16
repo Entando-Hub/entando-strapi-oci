@@ -20,9 +20,9 @@
 /svc/keycloak/keycloak-db
 # Node
 ######################
-microservices/entando-customized-strapi/build
-microservices/entando-customized-strapi/node_modules
-microservices/entando-customized-strapi/.cache
+microservices/entando-strapi-plugin/build
+microservices/entando-strapi-plugin/node_modules
+microservices/entando-strapi-plugin/.cache
 ######################
 # Visual Studio Code
 ######################

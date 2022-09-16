@@ -1,15 +1,15 @@
 ## 📚 Steps to use this customized strapi project
 - Clone this project
 ```
-git clone https://github.com/sachinbaghel271/entando-customized-strapi.git
+git clone https://github.com/sachinbaghel271/entando-strapi-plugin.git
 ```
 - Install the dependencies
 ```
-~entando-customized-strapi$ npm install
+~entando-strapi-plugin$ npm install
 ```
 - Go to src/admin and install the dependencies
 ```
-~entando-customized-strapi/src/admin$ npm install
+~entando-strapi-plugin/src/admin$ npm install
 ```
 - Go to node_modules/@strapi/strapi/lib/core/loaders/admin.js and this line: node_modules/@strapi/strapi/lib/core/loaders/admin.js
 ```
@@ -18,12 +18,12 @@ git clone https://github.com/sachinbaghel271/entando-customized-strapi.git
 ```
 - Run the project
 ```
-~entando-customized-strapi$ npm run develop
+~entando-strapi-plugin$ npm run develop
 ```
 ## 📚 Steps I followed to customize strapi project:
 - Create a strapi project:
 ```
-npx create-strapi-app@4.1.11 entando-customized-strapi
+npx create-strapi-app@4.1.11 entando-strapi-plugin
 ```
 - Build the project
 ```
@@ -42,7 +42,7 @@ src/admin$ npm install
 ```
 - Run the project
 ```
-~entando-customized-strapi$ npm run develop
+~entando-strapi-plugin$ npm run develop
 ```
 # 🚀 Getting started with Strapi
 

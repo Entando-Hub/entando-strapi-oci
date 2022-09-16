@@ -1,6 +1,5 @@
 FROM strapi/base:14
-# ARG SOURCE_ROOT="./src/main/node"
-# Set up working directory that will be used to copy files/directories below :
+
 RUN apt-get update && \
 apt-get install -y --no-install-recommends nginx jq curl
 
